@@ -1,0 +1,47 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Базы данных SQLite (локальные данные)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Логи
+logs/
+*.log
+
+# Переменные окружения (секреты)
+.env
+.env.local
+.env.*.local
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Тесты / покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
